@@ -1,0 +1,119 @@
+
+
+/*************** 
+    Hero
+****************/
+.hero{
+    display: flex; 
+    padding: 60px; 
+    background-color: #FEFAF5; 
+
+}
+
+
+.hero__image--display{
+    width: 71%;
+    margin-left: 25%;
+}
+
+
+.hero__content{
+    padding-top:20px; 
+    padding-bottom:20px; 
+
+}
+
+.hero__title, .hero__container{
+    width:95%;
+}
+.hero__title{
+    width:76%;
+    color: #335576; 
+    font-size: 2.0625rem;  
+}
+
+.hero__text{
+    text-align: left;
+    font-size:1rem;
+    width: 106%;
+}
+
+.hero__link{
+    background-color: #DB7A4E;
+    padding: 7px 35px;
+    border-radius: 20px; 
+    text-decoration: none;
+    color: white; 
+    font-size:.75rem; 
+}
+
+.hero__container--move-down{
+    padding-top:30px; 
+}
+
+
+/*********************
+    Suggestions Section
+***********************/
+
+.suggestions{
+    padding-top: 40px;
+    padding-bottom: 85px;
+}
+
+.suggestions__title{
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.countries{
+    display:flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 141px;
+    padding-right: 141px;
+}
+
+.consider-this{
+    padding-left: 50px;
+    width: 35%;
+}
+
+/* The highlight for me is figuring out how
+to position the a tags without using margins,
+and still have the page responsive */
+.consider-this__all{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .2); 
+    height: 388px;
+    /* width: 30%; */
+    background-color: gray;
+    background-size: cover;
+    position:relative;
+    width: 270px;
+    display: inline-block;
+   
+}
+
+
+.consider-this--1st-option{
+    background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.consider-this--2nd-option{
+    background-image: url(../assets/Images/iceland.jpg);
+}
+
+.consider-this--3rd-option{
+    background-image: url(../assets/Images/greece.jpg);
+}
+
+.consider-this__location{
+    position: absolute;
+    bottom: -5px;
+    right: 15px;
+    /* left: -61px; */
+    color: white;
+    font-weight: 600;
+}

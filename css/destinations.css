@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin:0; 
+
+    
+}
+
+.destination{
+    background-size: cover;
+    padding-top: 5px; 
+    padding-bottom: 125px;
+    background-position: 0px -679px;
+    background-repeat: no-repeat;
+
+    /* position:absolute; 
+    bottom: 05px;
+    right: 05px;
+    top: 55px; */
+}
+
+.destination--one{
+    background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.destination--two{
+    background-image: url(../assets/Images/iceland.jpg);
+}
+
+.destination--three{
+    background-image: url(../assets/Images/greece.jpg);
+}
+
+.destination__title{
+    font-size: 55px; 
+    padding-left: 55px; 
+    color: white; 
+}
+
+.card__trip{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 16%;
+    padding-left: 16%;
+
+}
+
+.card-schedule{
+    text-align: center;
+    width: 28%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.card-title{
+    display: inline-block;
+    border-bottom: 2px solid black;
+    height: 13%;
+    width: 94%;
+}
+
+.card__list, .card__list li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.card__list{
+    padding-left: 10.5px;
+    padding-right: 10.5px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+
+    /* why was there padding on the card__list */
+}
+
+.card__list--add{
+    margin-top: 9%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #FEFAF5;
+    
+    text-align: center;
+    /* margin-bottom: 3%; */
+    /* width: 25%; */
+}
+
+/* .card-title, .card__list{
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.destination{
+    background-size: cover;
+    padding-top: 5px; 
+    padding-bottom: 100px;
+    background-size: cover;
+    padding-top: 5px;
+    padding-bottom: 100px;
+    background-position: 0px -679px;
+    background-repeat: no-repeat;
+}
+
+.destination--one{
+    background-image: url(../assets/Images/hawaii.jpg);
+}
+
+.destination--two{
+    background-image: url(../assets/Images/iceland.jpg);
+}
+
+.destination--three{
+    background-image: url(../assets/Images/greece.jpg);
+}
+
+.destination__title{
+    font-size: 55px; 
+    padding-left: 55px; 
+    color: white; 
+}
+
+
+
+.destination__trip{
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+
+.destination__schedule{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    background-color: white;
+    width: 28%;
+    border-radius: 5px;
+    padding-bottom: 75px;
+}
+
+.destination__day--centerring{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.destination__the-plan{
+    background-color:#FEFAF5; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.destination__event--middle{
+    text-align:center;
+    border-bottom: 2px solid black; 
+} */
+
+

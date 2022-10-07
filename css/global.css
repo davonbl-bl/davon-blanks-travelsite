@@ -1,0 +1,206 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0; 
+}
+
+/****************
+  Header- Navigation
+*****************/
+
+header{
+    background-color: aqua;
+
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 4.6875rem;
+    padding-right: 4.6875rem;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.625rem;
+    background-color: #FFFFFF; 
+    
+    /* align-items flex-start 
+    align-items: flex */
+}
+
+.navigation__section, .navigation__link--style, .navigation__logo--style{
+    list-style:none;
+    text-decoration: none;
+}
+
+
+.navigation__section{
+    margin-top:0%; 
+    display: flex; 
+
+    padding-left: 0;
+    /* width: 30%;
+    
+    display:flex: align-items: flex-start;*/
+    justify-content: space-between;
+}
+
+.navigation__link{
+    padding-left: .1875rem;
+    padding-right: .1875rem;
+    box-sizing: border-box;
+}
+
+.navigation__logo{
+    color: #335576;
+    font-weight:bold; 
+    font-size: 1.25rem;
+}
+
+.navigation__link--style{
+    color: rgb(0,0,0); 
+}
+
+
+/* Initally, the .navigation__section
+selector was an anchor, thus making the
+nav bar quite responsive with just flex
+and a justify-content property. However,
+when realizing that I needed to use ul
+tags instead of anchor tags, that is when
+the navigation__section became uneven. To
+replicated the results I initally had, I 
+have to have the parent selector (uls) to 
+have a margin-top of 0, a padding-left of zero,
+and then flex. With the child element, I added
+padding on both sizes. In other words, I 
+had to do some tenious work in addition to
+flexbox.  */
+
+.navigation__link--style:hover, .navigation__link--default{
+    padding-bottom:.5625rem; 
+    border-bottom: .125rem solid #DB7A4E;
+}
+
+
+
+/******************* 
+    Footer
+********************/
+
+
+.availability{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom:50px; 
+    background-color: #FEFAF5;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.contact-info__context--title{
+    color:#335576; 
+    font-size: 1.3125rem;
+}
+
+.contact-info__context--new{
+    display:flex; 
+    flex-direction: column;
+    gap: 7px;
+}
+
+.contact-into--smaller{
+    width: 15%;
+}
+
+.contact-into--wide{
+    width: 60%; 
+}
+
+.contact-info__context--line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info__context--week{
+    display:flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.contact-info__context--week-days{
+    width: 24%;
+}
+
+.contact-info__context--weekend-one{
+    width: 26%;
+}
+
+.contact-info__context--weekend-two{
+    width: 26%;
+}
+
+.contact-into--small{
+    width:15%; 
+    margin-left: -14%;
+}
+
+.contact-info__context-logo{
+    width:30%; 
+    max-width: 30%;
+    min-width: 30%; 
+}
+
+.contact-info__context--change{
+    display:flex;
+    justify-content: space-between;
+    margin-left: -13%;
+    padding-top: 15px;
+}
+.contact-info__context--media{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info__context--color{
+    color:#335576; 
+}
+
+.contact-info__context--different{
+    color:#DB7A4E;
+    font-size: 9px;
+}
+
+
+
+/* 
+.contact-into--small{
+    width: 25%;
+}
+
+.contact-into--wide{
+    width: 50%;
+} */
+
+
+/* 
+.contact-info__context, .contact-info__context--week {
+    display:flex; 
+}
+
+.contact-info__context--add, .contact-info__context--week-push{
+    flex-direction: column;
+    gap: 7px;
+}
+
+.contact-info__context--week-push{
+    justify-content: space-around;
+}
+
+
+
+.contact-info__context--change{
+    display: flex;
+    justify-content: space-around;
+} */
